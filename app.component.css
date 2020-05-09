@@ -1,0 +1,279 @@
+/* nav a.active{
+    color:#039be5;
+} */
+/* *{
+    margin:0;
+    padding:0;
+} */
+ .header{
+    width:100%;
+    height:100vh;
+    background-image:url("/../assets/img/Rectangle 11.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+} 
+.header:before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left:0;
+    right:0;
+    opacity: .3%;
+    z-index: -1;
+    /* background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%); */
+}
+.navbar:before{
+    content:"";
+     position: absolute;
+     top: 0%;
+     bottom: 0%;
+     left:0;
+     right:0;
+     opacity: .3%;
+     z-index: -1;
+     /* background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%); */
+}
+nav a:hover{
+    background-color:gray;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{list-style: none;}
+.header-section{
+    width:100%;
+    height:inherit;
+    color:white;
+    text-align:center;
+    position:relative;
+}
+h1{
+    font-size:50px;
+    margin-top: 30%;
+    margin-bottom:30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.im{
+    height: 270px;
+    width: 270px;
+    /* margin-top: 30%;
+    margin-bottom:30%;
+    margin-left: 30%;
+    margin-right: 30%; */
+    margin:50px 50px 50px 50px;
+}
+.header-extradiv{
+    width:100%;
+    height:auto;
+    margin: 200px 0;
+    text-align: center;
+}
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding:50px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.extra-div:hover{
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.kk{
+    margin-top:20px;
+    margin-bottom:40px;
+    color:skyblue;
+    font-weight: normal;
+}
+.extra-div h2{
+    font-size: 0.9rem;
+    /* margin:20px 0 15px 0; */
+    font-weight: bold;
+}
+.btn{
+    background-color: white;
+    color:rgb(60, 166, 207);
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: skyblue;
+}
+.Trends{
+    background-image: url("/../assets/img/trends.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    background-size: 100% 100%;
+    position: relative;
+   margin-top:10px
+}
+.heading{
+    margin-top:100px;
+    margin-bottom:90px;
+    font-weight: normal;
+}
+.mid{
+    text-align: center;
+    margin-top: 100px;
+    color:white
+}
+.imgbutton{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color:skyblue;
+    font-size:16px;
+    padding:12px 24px;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.imgbutton:hover{
+    color:blue;
+}
+.contact{
+    background-image: url("/../assets/img/Rectangle 13.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    background-size: 100% 100%;
+    position: relative;
+    margin-top:52px;
+}
+.mid1{
+    margin-top: 40%;
+    margin-bottom:40%;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: white;
+    font-size: 35px;
+    
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .myform{
+    border-radius: 5px;
+    background-color:white;
+    padding: 20px;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+/* form{
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 40%;
+    margin-right: 10%;
+}
+input{
+    border:1px solid black;
+}
+textarea{
+    border:1px solid black;
+}
+.mybtn{
+  align-items:center;
+} */
+/* .footersection{
+    background-image: url("/../assets/img/Rectangle 13.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+    background-size: 100% 100%;
+    position: relative;
+    margin-top:52px;
+} */
+.mycontainer{
+    background-color: rgb(61, 61, 97);
+    width:100%;
+    height:60px;
+    margin-top:16px;
+  
+
+}
+.mycontainer p{
+    color:white;
+    font-size:20px;
+    margin-left:20px;
+    display: inline;
+    
+}
+@media (max-width:1030px){
+    .kk2{
+        margin-top: 400px;
+        width:auto;
+    }
+    .mid{
+        color:skyblue;
+        font-weight: bold;
+    }
+   form{
+       width:100%;
+       margin-top:20px;
+   }
+  
+}
+@media (max-width:450px){
+    .contact{
+        margin-top: 1290px;
+    
+    }
+    .mycontainer{
+        margin-top: 420px;
+        
+    }
+}
+@media (max-width:420px){
+    .mycontainer{
+        margin-top: 550px;
+    }
+}
